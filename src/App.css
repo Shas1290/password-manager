@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+#root {
+  /* max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem; */
+  text-align: center;
+}
+.heading{
+  margin-top: 88px;
+}
+.github{
+  padding-top: 5px;
+}
+.logogit{
+  padding: 5px;
+  margin: 8px;
+}
+
+.logo {
+  font-family: lobster;
+  /* height: 6em; */
+  padding: 10px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.pad{
+  padding-left: 15px;
+  z-index: 50;
+}
+.solo{
+  margin: 15px;
+}
+.doco {
+  /* height: 6em; */
+  font-family: sans-serif ;
+  padding: 10px;
+  will-change: filter;
+  transition: filter 300ms;
+  /* cursor: pointer; */
+}
+/* .custom-background {
+  min-height: 100vh; /* ensures at least full screen height */
+  /* padding: 6rem 1.25rem; py-24 px-5
+  
+} */ 
+.loco{
+ padding: 9px;
+ margin: 88px;
+}
+.semi{
+  font-family: cursive;
+}
+.point{
+padding-top: 4px;
+}
+.joint{
+  padding-top: 4px;
+}
+.moint{
+  padding-top: 4px;
+}
+.poco{
+  padding: 18px;
+  margin-right: 5px;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.pass{
+  font-family: dancing script;
+}
+.soso{
+  padding: 18px;
+  padding-right: 36px; 
+  /* margin: 88px; */
+ }
+ 
+ .bobo{
+   padding: 18px;
+   margin-right: 5px;
+ }
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
